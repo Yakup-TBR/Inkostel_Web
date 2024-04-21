@@ -196,7 +196,7 @@ nav.open ~ .overlay {
 img {
     width: 150px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 
@@ -215,14 +215,14 @@ header .logo {
 
 .custom-button1 {
     width: 100px; 
-    height: 40px; 
+    height: 60px; 
     background-color: #85DAC8;
     border : transparent;
 }
 
 .custom-button2 {
     width: 100px; 
-    height: 40px; 
+    height: 60px; 
     background-color: #E29578;
     border : transparent;
 }
@@ -401,7 +401,7 @@ hr {
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: #000000;
+    color: #151515;
     transition: all 0.5s ease;
 }
 
