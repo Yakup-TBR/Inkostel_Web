@@ -112,7 +112,6 @@
                         </div>
                         <br>
                         <a href="https://wa.me/{{ $carikos->ContactPerson }}" target="_blank" class="btn btn-outline-success d-block mx-auto bi bi-whatsapp">WhatsApp</a>
-                        <!-- Menggunakan "d-block mx-auto" untuk mengatur tombol di tengah -->
                     </div>
                 </div>
                 <h6>Alamat : {{ $carikos->alamat }}</h6>
