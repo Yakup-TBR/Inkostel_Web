@@ -117,7 +117,7 @@
                 <h6>Alamat Kost : {{ $carikos->alamat }}</h6>
             </div>
 
-                    <!-- Script pindahkan ke js  -->
+            <!-- ini adalah bagian js untuk  mengatur format harga dari data base -->
             <script>
                 function formatRupiah(angka) {
                     var formatter = new Intl.NumberFormat('id-ID', {
