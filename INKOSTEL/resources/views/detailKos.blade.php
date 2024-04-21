@@ -99,9 +99,10 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="dropdown">
+                                <div class="dropdown"> 
+                                    <!-- Ubah filter jarak menjadi dropdown -->
                                     <button class="btn btn-outline-secondary dropdown-toggle" style="width: 10rem; border-color: #6DD6BF;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="text-color"> Jarak</span>
+                                        <span class="text-color"> Jarak</span> 
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#"> {{number_format($carikos->jarak_kos / 1000, 2) }} km</a></li>
