@@ -93,8 +93,8 @@
                                         <span class="text-color"> Harga</span>
                                     </button>
                                     <ul class="dropdown-menu" id="dalam">
-                                        <li><a class="dropdown-item" id="drop_pertahun" href="#" onclick="ubahHarga('pertahun')">Pertahun</a></li>
-                                        <li><a class="dropdown-item" id="drop_perbulan" href="#" onclick="ubahHarga('perbulan')">Perbulan</a></li>
+                                        <li><a class="dropdown-item" id="drop_pertahun" href="#" onclick="ubahHarga('pertahun')">Tahunan</a></li>
+                                        <li><a class="dropdown-item" id="drop_perbulan" href="#" onclick="ubahHarga('perbulan')">Bulanan</a></li>
                                     </ul>
                                 </div>
                             </div>
