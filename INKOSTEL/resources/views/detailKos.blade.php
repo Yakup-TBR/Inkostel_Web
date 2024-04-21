@@ -35,30 +35,16 @@
                                         <img src="{{ asset('img/' . $carikos->gambar_kos1) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 1" name="gambar_kos1">
                                     </div>
                                     <div class="carousel-item">
-<<<<<<< Updated upstream
                                         <img src="{{ asset('img/' . $carikos->gambar_kos2) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 2" name="gambar_kos2">
                                     </div>
                                     <div class="carousel-item">
                                         <img src="{{ asset('img/' . $carikos->gambar_kos3) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 3" name="gambar_kos3">
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="{{ asset('img/' . $carikos->gambar_kos4) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 4" name="gambar_kos4"
+                                        <img src="{{ asset('img/' . $carikos->gambar_kos4) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 4" name="gambar_kos4">
                                     </div>
                                     <div class="carousel-item">
                                         <img src="{{ asset('img/' . $carikos->gambar_kos5) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 5" name="gambar_kos5">
-=======
-                                        <img src="{{ asset('img/' . $carikos->gambar_kos2) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="{{ asset('img/' . $carikos->gambar_kos3)}}" class="d-block w-100" style="height: 270px;" alt="Kos Image 3">
-                                    </div>
-
-                                    <div class="carousel-item">
-                                        <img src="{{ asset('img/' . $carikos->gambar_kos4) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 4">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="{{ asset('img/' . $carikos->gambar_kos5) }}" class="d-block w-100" style="height: 270px;" alt="Kos Image 5">
->>>>>>> Stashed changes
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +99,10 @@
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <div class="dropdown">
+                                <div class="dropdown"> 
+                                    <!-- Ubah filter jarak menjadi dropdown -->
                                     <button class="btn btn-outline-secondary dropdown-toggle" style="width: 10rem; border-color: #6DD6BF;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="text-color"> Jarak</span>
+                                        <span class="text-color"> Jarak</span> 
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#"> {{number_format($carikos->jarak_kos / 1000, 2) }} km</a></li>
@@ -125,13 +112,12 @@
                         </div>
                         <br>
                         <a href="https://wa.me/{{ $carikos->ContactPerson }}" target="_blank" class="btn btn-outline-success d-block mx-auto bi bi-whatsapp">WhatsApp</a>
-                        <!-- Menggunakan "d-block mx-auto" untuk mengatur tombol di tengah -->
                     </div>
                 </div>
                 <h6>Alamat : {{ $carikos->alamat }}</h6>
             </div>
 
-
+                    <!-- Script pindahkan ke js  -->
             <script>
                 function formatRupiah(angka) {
                     var formatter = new Intl.NumberFormat('id-ID', {
