@@ -102,7 +102,7 @@
                                 <div class="dropdown"> 
                                     <!-- Ubah filter jarak menjadi dropdown -->
                                     <button class="btn btn-outline-secondary dropdown-toggle" style="width: 10rem; border-color: #6DD6BF;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <span class="text-color"> Jarak</span> 
+                                        <span class="text-color"> Jarak Kost</span> 
                                     </button>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="#"> {{number_format($carikos->jarak_kos / 1000, 2) }} km</a></li>
@@ -114,7 +114,7 @@
                         <a href="https://wa.me/{{ $carikos->ContactPerson }}" target="_blank" class="btn btn-outline-success d-block mx-auto bi bi-whatsapp">WhatsApp</a>
                     </div>
                 </div>
-                <h6>Alamat : {{ $carikos->alamat }}</h6>
+                <h6>Alamat Kost : {{ $carikos->alamat }}</h6>
             </div>
 
             <!-- ini adalah bagian js untuk  mengatur format harga dari data base -->
