@@ -114,7 +114,7 @@
                         <a href="https://wa.me/{{ $carikos->ContactPerson }}" target="_blank" class="btn btn-outline-success d-block mx-auto bi bi-whatsapp">WhatsApp</a>
                     </div>
                 </div>
-                <h6>Alamat Kost : {{ $carikos->alamat }}</h6>
+                <h6>Alamat Kost/Address : {{ $carikos->alamat }}</h6>
             </div>
 
             <!-- ini adalah bagian js untuk  mengatur format harga dari data base -->
