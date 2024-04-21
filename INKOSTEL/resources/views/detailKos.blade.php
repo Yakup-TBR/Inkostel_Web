@@ -93,8 +93,8 @@
                                         <span class="text-color"> Harga</span>
                                     </button>
                                     <ul class="dropdown-menu" id="dalam">
-                                        <li><a class="dropdown-item" id="drop_pertahun" href="#" onclick="ubahHarga('pertahun')">Pertahun</a></li>
-                                        <li><a class="dropdown-item" id="drop_perbulan" href="#" onclick="ubahHarga('perbulan')">Perbulan</a></li>
+                                        <li><a class="dropdown-item" id="drop_pertahun" href="#" onclick="ubahHarga('pertahun')">Tahunan</a></li>
+                                        <li><a class="dropdown-item" id="drop_perbulan" href="#" onclick="ubahHarga('perbulan')">Bulanan</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                 <h6>Alamat : {{ $carikos->alamat }}</h6>
             </div>
 
-                    <!-- Script pindahkan ke js  -->
+            <!-- ini adalah bagian js untuk  mengatur format harga dari data base -->
             <script>
                 function formatRupiah(angka) {
                     var formatter = new Intl.NumberFormat('id-ID', {
