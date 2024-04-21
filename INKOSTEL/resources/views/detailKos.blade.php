@@ -117,7 +117,7 @@
                 <h6>Alamat : {{ $carikos->alamat }}</h6>
             </div>
 
-
+                    <!-- Script pindahkan ke js -->
             <script>
                 function formatRupiah(angka) {
                     var formatter = new Intl.NumberFormat('id-ID', {
